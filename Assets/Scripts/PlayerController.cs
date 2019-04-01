@@ -3,34 +3,39 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityStandardAssets.CrossPlatformInput;
 
-public class Player : MonoBehaviour
+public class PlayerController : MonoBehaviour
 {
-    [Tooltip("In ms^-1")] [SerializeField] float Speed = 50f;
-    [Tooltip("In m")] [SerializeField] float xRange = 22f;
+    [Header("Object-movement")]
+    [Tooltip("In ms^-1")] [SerializeField] float Speed = 40f;
+    [Tooltip("In m")] [SerializeField] float xRange = 27f;
     [Tooltip("In m")] [SerializeField] float yRangeMax = 17f;
-    [Tooltip("In m")] [SerializeField] float yRangeMin = 14f;
+    [Tooltip("In m")] [SerializeField] float yRangeMin = 17f;
 
-    [SerializeField] float positionPitchFactor = -1.3f;
-    [SerializeField] float controlPitchFactor = -14f;
-
-    [SerializeField] float positionYawFactor = 1.3f;
-    [SerializeField] float controlYawFactor = 15f;
-
-    [SerializeField] float controlRollFactor = -25f;
+    [Header("Screen-position based")]
+    [SerializeField] float positionPitchFactor = -0.7f;
+    [SerializeField] float positionYawFactor = 0.7f;
+    [Header("Control-throw based")]
+    [SerializeField] float controlPitchFactor = -17f;
+    [SerializeField] float controlYawFactor = 25f;
+    [SerializeField] float controlRollFactor = -30f;
+    bool isControlEnabled = true;
 
     float yThrow;
     float xThrow;
     // Start is called before the first frame update
-    void Start()
-    {
-
-    }
 
     // Update is called once per frame
     void Update()
     {
-        ProcessTranslation();
-        ProcessRotation();
+        if (isControlEnabled)
+        {
+            ProcessTranslation();
+            ProcessRotation();
+        }
+    }
+    void OnPlayerDeath() //called by string reference
+    {
+        isControlEnabled = false;
     }
 
     private void ProcessRotation()
