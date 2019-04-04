@@ -112,6 +112,12 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &96053232 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7240930103044008926, guid: e2a5adb9a914d554891d3d7cb07abe41,
+    type: 3}
+  m_PrefabInstance: {fileID: 7240930103284831409}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &112368037 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 2973662585312136117, guid: 07344a8d6e270c44f80a709a6b2e08e6,
@@ -133,6 +139,7 @@ MonoBehaviour:
   deathFX: {fileID: 8645775122984036785, guid: 38cf71d16debd934a9b61f8b24ca9c4f, type: 3}
   parent: {fileID: 950370562}
   scorePerHit: 15
+  healthPoints: 100
 --- !u!1001 &138499498
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -292,7 +299,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1212
+  m_Name: pb_Mesh-18460
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -533,7 +540,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1326
+  m_Name: pb_Mesh-18572
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -803,13 +810,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &612084031 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3959767729593647614, guid: e2a5adb9a914d554891d3d7cb07abe41,
+    type: 3}
+  m_PrefabInstance: {fileID: 7240930103284831409}
+  m_PrefabAsset: {fileID: 0}
 --- !u!43 &637736170
 Mesh:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1314
+  m_Name: pb_Mesh-18560
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1025,7 +1038,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1134
+  m_Name: pb_Mesh-18384
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1589,7 +1602,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1132
+  m_Name: pb_Mesh-18382
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1892,7 +1905,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1316
+  m_Name: pb_Mesh-18562
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2062,7 +2075,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1144
+  m_Name: pb_Mesh-18394
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2266,6 +2279,18 @@ Mesh:
     offset: 0
     size: 0
     path: 
+--- !u!1 &1226668683 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3110113193761886700, guid: e2a5adb9a914d554891d3d7cb07abe41,
+    type: 3}
+  m_PrefabInstance: {fileID: 7240930103284831409}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1358771886 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 7866657016326164578, guid: e2a5adb9a914d554891d3d7cb07abe41,
+    type: 3}
+  m_PrefabInstance: {fileID: 7240930103284831409}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1359792504
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2488,7 +2513,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1224
+  m_Name: pb_Mesh-18472
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2773,6 +2798,7 @@ MonoBehaviour:
   deathFX: {fileID: 8645775122984036785, guid: 38cf71d16debd934a9b61f8b24ca9c4f, type: 3}
   parent: {fileID: 950370562}
   scorePerHit: 15
+  healthPoints: 100
 --- !u!1 &1773379402
 GameObject:
   m_ObjectHideFlags: 0
@@ -2809,7 +2835,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-1214
+  m_Name: pb_Mesh-18462
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3024,6 +3050,7 @@ MonoBehaviour:
   deathFX: {fileID: 8645775122984036785, guid: 38cf71d16debd934a9b61f8b24ca9c4f, type: 3}
   parent: {fileID: 950370562}
   scorePerHit: 15
+  healthPoints: 100
 --- !u!1001 &2114479842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3518,6 +3545,181 @@ PrefabInstance:
     - target: {fileID: 1538440998, guid: e2a5adb9a914d554891d3d7cb07abe41, type: 3}
       propertyPath: lengthInSec
       value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924491264136949497, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: bullets.Array.size
+      value: 4
+      objectReference: {fileID: 0}
+    - target: {fileID: 6924491264136949497, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: bullets.Array.data[0]
+      value: 
+      objectReference: {fileID: 96053232}
+    - target: {fileID: 6924491264136949497, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: bullets.Array.data[1]
+      value: 
+      objectReference: {fileID: 612084031}
+    - target: {fileID: 6924491264136949497, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: bullets.Array.data[2]
+      value: 
+      objectReference: {fileID: 1358771886}
+    - target: {fileID: 6924491264136949497, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: bullets.Array.data[3]
+      value: 
+      objectReference: {fileID: 1226668683}
+    - target: {fileID: 6924491264136949497, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: bullets.Array.data[4]
+      value: 
+      objectReference: {fileID: 1226668683}
+    - target: {fileID: 3110113193761886705, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110113193761886705, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110113193761886705, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110113193761886705, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.02634932
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110113193761886705, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.9716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110113193761886705, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3110113193761886705, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: CollisionModule.maxKillSpeed
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959767729593647587, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959767729593647587, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959767729593647587, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959767729593647587, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.02634932
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959767729593647587, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.9716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959767729593647587, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 3959767729593647587, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: CollisionModule.maxKillSpeed
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: useUnscaledTime
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.02634932
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.9716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7240930103044008899, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: CollisionModule.maxKillSpeed
+      value: 10000
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866657016326164607, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: EmissionModule.rateOverTime.scalar
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866657016326164607, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866657016326164607, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.r
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866657016326164607, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.g
+      value: 0.02634932
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866657016326164607, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: InitialModule.startColor.minColor.b
+      value: 0.9716981
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866657016326164607, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: VelocityModule.enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7866657016326164607, guid: e2a5adb9a914d554891d3d7cb07abe41,
+        type: 3}
+      propertyPath: CollisionModule.maxKillSpeed
+      value: 10000
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e2a5adb9a914d554891d3d7cb07abe41, type: 3}

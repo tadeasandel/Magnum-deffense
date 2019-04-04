@@ -18,6 +18,11 @@ public class PlayerController : MonoBehaviour
     [SerializeField] float controlPitchFactor = -17f;
     [SerializeField] float controlYawFactor = 25f;
     [SerializeField] float controlRollFactor = -30f;
+    [Header("Bullets")]
+    [SerializeField] GameObject[] bullets;
+    [SerializeField] int Damage = 10;
+
+
     bool isControlEnabled = true;
 
     float yThrow;
@@ -31,6 +36,7 @@ public class PlayerController : MonoBehaviour
         {
             ProcessTranslation();
             ProcessRotation();
+            ProcessFiring();
         }
     }
     void OnPlayerDeath() //called by string reference
@@ -66,4 +72,34 @@ public class PlayerController : MonoBehaviour
 
         transform.localPosition = new Vector3(clampedXpos, clampedYpos, transform.localPosition.z);
     }
+    private void ProcessFiring()
+    {
+        if (CrossPlatformInputManager.GetButton("Fire"))
+        {
+            ActivateTheGuns();
+        }
+        else
+        {
+            DeactivateTheGuns();
+        }
+    }
+    private void ActivateTheGuns()
+    {
+        foreach (GameObject bullet in bullets)
+        {
+            bullet.SetActive(true);
+        }
+    }
+    private void DeactivateTheGuns()
+    {
+        foreach (GameObject bullet in bullets)
+        {
+            bullet.SetActive(false);
+        }
+    }
+    public int DamageDeal()
+    {
+        return Damage;
+    }
+
 }
