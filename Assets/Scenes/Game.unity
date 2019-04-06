@@ -150,7 +150,7 @@ PrefabInstance:
     - target: {fileID: 2973662585312136117, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Ship (1)
+      value: Hawray (1)
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
@@ -299,7 +299,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18460
+  m_Name: pb_Mesh-1174
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -540,7 +540,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18572
+  m_Name: pb_Mesh-1286
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -822,7 +822,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18560
+  m_Name: pb_Mesh-1274
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1038,7 +1038,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18384
+  m_Name: pb_Mesh-1098
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1602,7 +1602,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18382
+  m_Name: pb_Mesh-1096
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -1905,7 +1905,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18562
+  m_Name: pb_Mesh-1276
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2075,7 +2075,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18394
+  m_Name: pb_Mesh-1108
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2301,7 +2301,7 @@ PrefabInstance:
     - target: {fileID: 2973662585312136117, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Ship (2)
+      value: Hawray (3)
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
@@ -2513,7 +2513,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18472
+  m_Name: pb_Mesh-1186
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -2835,7 +2835,7 @@ Mesh:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: pb_Mesh-18462
+  m_Name: pb_Mesh-1176
   serializedVersion: 9
   m_SubMeshes:
   - serializedVersion: 2
@@ -3051,6 +3051,44 @@ MonoBehaviour:
   parent: {fileID: 950370562}
   scorePerHit: 15
   healthPoints: 100
+--- !u!95 &2010944439
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010944437}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!320 &2010944440
+PlayableDirector:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2010944437}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_PlayableAsset: {fileID: 11400000, guid: 025410f9b640d4947886a657dedf0363, type: 2}
+  m_InitialState: 1
+  m_WrapMode: 2
+  m_DirectorUpdateMode: 1
+  m_InitialTime: 0
+  m_SceneBindings:
+  - key: {fileID: 114197160268568854, guid: 025410f9b640d4947886a657dedf0363, type: 2}
+    value: {fileID: 2010944439}
+  m_ExposedReferences:
+    m_References: []
 --- !u!1001 &2114479842
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3273,42 +3311,42 @@ PrefabInstance:
     - target: {fileID: 2973662585312136117, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_Name
-      value: Enemy Ship
+      value: Hawray (0)
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 42.84444
+      value: 26.35
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -4.3365154
+      value: -18.13
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 42.89803
+      value: 28.55
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalRotation.x
-      value: -0
+      value: 0.056459133
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalRotation.y
-      value: -0
+      value: -0.23808604
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalRotation.z
-      value: -0.061361317
+      value: 0.22372438
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalRotation.w
-      value: 0.99811566
+      value: 0.94343776
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
@@ -3318,17 +3356,17 @@ PrefabInstance:
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
+      value: 12.302001
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
+      value: -25.718
       objectReference: {fileID: 0}
     - target: {fileID: 2973662585312136118, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
-      value: -7.0360003
+      value: 23.863
       objectReference: {fileID: 0}
     - target: {fileID: 2973662584647459733, guid: 07344a8d6e270c44f80a709a6b2e08e6,
         type: 3}
